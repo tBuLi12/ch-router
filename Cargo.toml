@@ -2,6 +2,8 @@
 name = "ch-router"
 version = "0.1.0"
 edition = "2021"
+description = "A router based on Contraction Hierarchies with optional path unfolding and \"hot groups\""
+license = "MIT"
 
 [features]
 default = ["path-unfolding"]
