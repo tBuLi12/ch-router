@@ -1,0 +1,11 @@
+[package]
+name = "ch-router"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["path-unfolding"]
+path-unfolding = []
+
+[dependencies]
+rustc-hash = "2.0.0"
