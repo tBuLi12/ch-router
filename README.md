@@ -25,7 +25,7 @@ let ch = ContractionHierarchy::new(&nodes, &edges, max_speed);
 
 ## Routing
 
-Basic routing is done with the `route` mehtod:
+Basic routing is done with the `route` method:
 
 ```rust
 let Route { path, distance } = router.route(0, 1).unwrap();
